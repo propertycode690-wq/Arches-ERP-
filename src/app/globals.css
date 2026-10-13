@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-near-black: #0F0E0C;
+  --color-dark-grey: #3A3835;
+  --color-mid-grey: #999590;
+  --color-warm-grey: #E8E5DF;
+  --color-off-white: #F4F2EE;
+  --color-white: #FFFFFF;
+
+  /* Font */
+  --font-sans: var(--font-neue-haas), "Helvetica Neue", Arial, sans-serif;
+
+  /* Base Radius */
+  --radius-default: 2px;
+}
+
+body {
+  @apply bg-off-white text-near-black font-sans antialiased;
+}
